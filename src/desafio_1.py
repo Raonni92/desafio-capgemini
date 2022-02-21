@@ -1,4 +1,12 @@
 def escada_string(n: int) -> str:
+    """Gerador de escada de * alinhada a direita
+
+    Args:
+        n (int): quantidade de degrais
+
+    Returns:
+        str: escada em formato de string
+    """
     escada = ""
     rjust_len = n * 2 - 3
     for c in range(1, n + 1):
