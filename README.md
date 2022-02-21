@@ -9,6 +9,7 @@ Desafio Capgemini realizado por mim, Raonni Silva Pinto.
 Os códigos dos desafios estão dentro da pasta src, para executar algum destes temos os comandos:  
 - desafio 1: ```python src/desafio_1.py```
 - desafio 2: ```python src/desafio_2.py```
+- desafio 3: Infelizmente não houve tempo hábil para desenvolver.
 
 ## Rodando os testes
 Para rodar os testes basta executar o comando: ```python -m unittest discover```
