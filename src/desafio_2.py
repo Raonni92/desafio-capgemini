@@ -1,4 +1,12 @@
 def verificar_senha_forte(senha: str) -> int:
+    """Verifica se a senha possui requisitos de uma senha forte.
+
+    Args:
+        senha (str): a senha a ser verificada.
+
+    Returns:
+        int: quantidade de caracteres para se ter uma senha forte.
+    """
     regra_especial = {"maiscula": 1, "minuscula": 1, "digito": 1, "especial": 1}
     regra_tamanho = 6
     letras_especiais = "!@#$%^&*()-+"
